@@ -247,15 +247,68 @@ input[type="radio"].visually-hidden {
 	/* 4 Visual */
 	background-image: url(../images/photo-arrow-right.png);
 }
-// mfp-arrow mfp-arrow-right mfp-prevent-close
-/* 1 Positioning */
+.intro-page {
+	/* 2 Block model */
+	height: 100vh;
+	padding-top: 40px;
+	padding-bottom: 40px;
 
-/* 2 Block model */
+	/* 4 Visual */
+	background-color: $color-blue-light;
+}
+.intro-page__top {
+	/* 2 Block model */
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+// .intro-page .logo {
+// 	/* 2 Block model */
+// 	width: 100px;
+// }
+.intro-page__list {
+	/* 2 Block model */
+	margin: 0;
+	padding: 0;
 
-/* 3 Typography */
+	/* 4 Visual */
+	list-style: none;
+}
+.intro-page__item {
+	/* 2 Block model */
+	margin-bottom: 15px;
 
-/* 4 Visual */
+	/* 3 Typography */
+	text-align: center;
 
-/* 5 Animation*/
+	/* 4 Visual */
+	border: 1px solid $color-blue;
+	border-bottom: 3px solid $color-blue;
+	border-radius: 5px;
 
-/* 6 Misc */
+	/* 4 Visual */
+	transition: all 0.4s;
+}
+.intro-page__item a {
+	/* 2 Block model */
+	display: block;
+	padding: 12px 20px 10px 20px;
+
+	/* 3 Typography */
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 18px;
+	color: $color-blue;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	/* 4 Visual */
+	transition: all 0.4s;
+}
+.intro-page__item:hover a {
+	/* 3 Typography */
+	color: #ffffff;
+
+	/* 4 Visual */
+	background-color: $color-blue;
+}

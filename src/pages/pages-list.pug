@@ -1,0 +1,43 @@
+doctype html
+html(lang="ru")
+	include include/head.pug
+	+head('Zen mobile agency')
+
+	body
+		include ../blocks/mixins.pug
+		div.intro-page
+			div.container
+				div.row.justify-content-center
+					div.col-12.col-lg-6
+						div.intro-page__top
+							+logo({img: 'logo.png'})
+
+						ul.intro-page__list
+							li.intro-page__item
+								a(href="index" target="_blank") home
+
+							li.intro-page__item
+								a(href="catalog" target="_blank") catalog
+
+							li.intro-page__item
+								a(href="clients" target="_blank") clients
+
+							li.intro-page__item
+								a(href="commodity" target="_blank") commodity
+
+							li.intro-page__item
+								a(href="contacts" target="_blank") contacts
+
+							li.intro-page__item
+								a(href="news-page" target="_blank") news-page
+
+							li.intro-page__item
+								a(href="news" target="_blank") news
+
+							li.intro-page__item
+								a(href="photo-gallery" target="_blank") photo-gallery
+
+							li.intro-page__item
+								a(href="404" target="_blank") 404
+
+		include include/script.pug

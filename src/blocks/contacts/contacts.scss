@@ -1,0 +1,157 @@
+.contacts {
+  /* 2 Block model */
+  padding-top: 60px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-top: 80px;
+  }
+
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    padding-top: 100px;
+  }
+}
+.contacts__top .title {
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    margin-bottom: 82px;
+  }
+}
+.contacts__info {
+  /* 2 Block model */
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+
+  /* 4 Visual */
+  background-color: #f7f9fb;
+  border-top: 2px dashed #b5c8dc;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    flex-direction: row;
+    padding-bottom: 0;
+  }
+}
+.contacts__left {
+  /* 1 Positioning */
+  position: relative;
+
+  /* 2 Block model */
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  /* 4 Visual */
+  background: -moz-linear-gradient(270deg, rgba(173, 173, 173, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-linear-gradient(270deg, rgba(173, 173, 173, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  background: -o-linear-gradient(270deg, rgba(173, 173, 173, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  background: -ms-linear-gradient(270deg, rgba(173, 173, 173, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(0deg, rgba(173, 173, 173, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    width: 45.625%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.contacts__left::before {
+  /* 1 Positioning */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+
+  /* 2 Block model */
+  display: block;
+
+  /* 4 Visual */
+  background-image: url(../images/contacts-bg-dots.png);
+  background-repeat: no-repeat;
+  background-position: left top 91px;
+  content: '';
+}
+.contacts__left .title {
+  /* 2 Block model */
+  margin-bottom: 15px;
+
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    margin-bottom: 25px;
+  }
+}
+.contacts__form {
+  /* 1 Positioning */
+  position: relative;
+  z-index: 2;
+  
+  /* 2 Block model */
+  width: 100%;
+  padding-top: 29px;
+  padding-bottom: 30px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    max-width: 495px;
+    margin-left: auto;
+    padding-bottom: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    padding-top: 29px;
+    padding-bottom: 101px;
+    padding-right: 18px;
+  }
+}
+.contacts .form__body {
+  /* 2 Block model */
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+}
+.contacts__right {
+  /* 2 Block model */
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    width: 54.375%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.contacts__right .map {
+  /* 4 Visual */
+  box-shadow: none;
+}
+
+.contacts__right .map iframe {
+  /* 2 Block model */
+  height: 674px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    height: 796px;
+  }
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

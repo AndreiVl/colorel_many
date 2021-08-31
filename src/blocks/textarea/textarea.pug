@@ -1,0 +1,6 @@
+mixin textarea(data)
+	fieldset.textarea(class!=attributes.class)
+		if data.label_text
+			label(for!= data.name class!=attributes.label_class)!=data.label_text
+		textarea.textarea__textarea(id=data.name, name=data.name, required=data.required, cols=data.cols, rows=data.rows)
+		span.textarea__placeholder!=data.placeholder

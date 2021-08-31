@@ -1,0 +1,58 @@
+.catalog {
+  /* 2 Block model */
+  padding-top: 60px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-top: 80px;
+  }
+
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    padding-top: 100px;
+  }
+}
+
+.catalog .cat {
+  /* 2 Block model */
+  padding-bottom: 10px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-bottom: 50px;
+  }
+
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    padding-bottom: 78px;
+  }
+}
+.catalog .text{
+  /* 2 Block model */
+  margin-bottom: 25px;
+}
+.catalog__info {
+  /* 2 Block model */
+  padding-bottom: 40px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-bottom: 80px;
+  }
+
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    padding-bottom: 116px;
+  }
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

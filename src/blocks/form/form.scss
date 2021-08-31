@@ -1,0 +1,59 @@
+.form__item {
+	/* 2 Block model */
+  padding-bottom: 20px;
+  
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-bottom: 29px;
+  }
+}
+.form__textarea {
+  /* 2 Block model */
+  margin-bottom: 29px;
+}
+.form__check {
+  /* 2 Block model */
+  display: flex;
+  align-items: center;
+  margin-bottom: 44px; 
+}
+.form__check-text {
+  /* 2 Block model */
+  margin: 0;
+
+  /* 3 Typography */
+  font-family: $font-main;
+  font-size: 12px;
+  line-height: 14px;
+}
+.form__check-link {
+  /* 2 Block model */
+  display: inline-block;
+
+  /* 3 Typography */
+  color: #02336c;
+
+  /* 5 Animation*/
+  transition: all 0.4s;
+}
+.form__check-link:hover {
+  /* 4 Visual */
+  color: #f8af43;
+}
+.forma__action .btn {
+  /* 2 Block model */
+  padding-left: 62px;
+  padding-right: 65px;
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */
+

@@ -1,0 +1,52 @@
+.project-realization {
+  /* 2 Block model */
+  margin-bottom: 60px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    margin-bottom: 80px;
+  }
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    margin-bottom: 100px;
+  }
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    margin-bottom: 130px;
+  }
+}
+.project-realization .title {
+  /* 2 Block model */
+  padding-left: 20px;
+}
+.project-realization .text {
+  /* 2 Block model */
+  margin-bottom: 10px;
+
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    margin-bottom: 25px;
+  }
+}
+.project-realization__img {
+  /* 2 Block model */
+  display: block;
+  width: 100%;
+  padding-top: 20px;
+
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    padding-top: 47px;
+  }
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

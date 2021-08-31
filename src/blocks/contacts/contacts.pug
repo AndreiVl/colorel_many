@@ -1,0 +1,15 @@
+section.contacts
+  div.container
+    div.row
+     div.col-12
+      div.contacts__top
+        +title({title: 'Свяжитесь с нами', h1: true})(class="title--center")
+
+  div.contacts__info
+    div.contacts__left
+      div.contacts__form
+        +title({title: 'Задать вопрос'})(class="title--fz24")
+        include ../form/form.pug
+
+    div.contacts__right
+      include ../map/map.pug

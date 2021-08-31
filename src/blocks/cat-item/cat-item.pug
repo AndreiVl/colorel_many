@@ -1,0 +1,7 @@
+mixin cat-item(data)
+  div.cat-item(class!=attributes.class)
+    h3
+      a.cat-item__title(href="#")!=data.title
+    div.cat-item__img
+      a(href="#")
+        img(src="images/"+data.img, alt=data.title_img)

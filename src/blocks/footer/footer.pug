@@ -1,0 +1,28 @@
+footer.footer
+  div.container
+    div.row
+      div.col-md-4.col-lg-5
+        div.footer__logo
+          +logo({img: 'logo-white.png'})
+          p.footer__copy &copy;&nbsp;2001-2015&nbsp;ООО &laquo;КОЛОРЭЛЕКТРОНИКС&raquo;
+
+      div.col-md-4.col-lg-4
+        div.footer__info
+          +icon-text({icon: 'icon--map-marker', text: 'Москва, ул. Боровая, д.&nbsp;7, стр.&nbsp;7'})(class="icon-text--white")
+          +icon-text({icon: 'icon--clock-solid', text: 'Режим работы:<br>Пн-Пт - 09:00-18:00'})(class="icon-text--white icon-text--no-center")
+
+      div.col-md-4.col-lg-3
+        div.footer__pos-contact
+          div.footer__info
+            +icon-text({icon: 'icon--envelope', text: '6400201@colorel.ru', mailto: true})(class="icon-text--underline icon-text--white icon-text--mr20 ")
+            +icon-text({icon: 'icon--phone', text: '+7 (495) 640-02-01', url: '+74956400201', tel: true})(class="icon-text--white icon-text--mr20 ")
+
+
+    div.row.align-items-center
+      div.col-md-4.col-lg-5.order-2.order-md-1
+        a.footer__link(href="#") Политика конфиденциальности
+      div.col-md-4.col-lg-4.order-3.order-md-2
+        a.footer__link(href="#") Условия использования
+      div.col-md-4.col-lg-3.order-1.order-md-3
+        div.footer__pos-btn
+          +btn({text: 'Оформить заказ', type: 'link', url: '#'})(class="btn--flat")

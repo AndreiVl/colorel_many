@@ -1,0 +1,16 @@
+.micro {
+  /* 4 Visual */
+  background-image: url(../images/micro-bg.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 200px;
+
+  @media(min-width: 768px) {
+    /* 4 Visual */
+    background-size: 400px;
+  }
+  @media(min-width: 1400px) {
+    /* 4 Visual */
+    background-size: auto;
+  }
+}

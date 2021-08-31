@@ -1,0 +1,13 @@
+mixin news-item(data)
+  div.news-item
+    div.news-item__img
+      img(src="images/"+data.img, alt=data.alt)
+    
+    h2.news-item__title!=data.title
+
+    div.news-item__info
+      p.news-item__date!=data.date
+
+      p.news-item__desc!=data.desc
+
+      +btn({text: 'Подробнее', type: 'link', url: data.url})

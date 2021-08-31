@@ -1,0 +1,85 @@
+.to-top {
+  /* 1 Positioning */
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 999;
+
+  /* 2 Block model */
+  display: none;
+  width: 50px;
+  height: 50px;
+  
+  /* 4 Visual */
+  background-color: #ffffff;
+  border: 3px solid #0e4f9c;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(14, 79, 156, 0.76);
+	-moz-box-shadow:    0px 0px 10px 1px rgba(14, 79, 156, 0.76);
+	box-shadow:         0px 0px 10px 1px rgba(14, 79, 156, 0.76);
+
+  /* 5 Animation*/
+	transition: all 0.4s;
+
+  @media(min-width: 768px) {
+    /* 1 Positioning */
+    bottom: 80px;
+  }
+  @media(min-width: 992px) {
+    /* 1 Positioning */
+    bottom: 114px;
+  }
+  @media(min-width: 1200px) {
+      /* 2 Block model */
+    width: 85px;
+    height: 85px;
+  }
+  @media(min-width: 1400px) {
+    /* 1 Positioning */
+    right: 86px;
+  }
+  @media(min-width: 1600px) {
+    /* 1 Positioning */
+    right: 100px;
+  }
+}
+.to-top .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  /* 2 Block model */
+  width: 15px;
+  height: 24px;
+
+  /* 4 Visual */
+  fill: #0e4f9c;
+  color: #0e4f9c;
+  transform: translate(-50%, -50%);
+
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    width: 24px;
+    height: 30px;
+}
+}
+.to-top:hover {
+  /* 4 Visual */
+  cursor: pointer;
+  background-color: #0e4f9c;
+}
+.to-top:hover .icon {
+  /* 4 Visual */
+  color: #ffffff;
+  fill: #ffffff;
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

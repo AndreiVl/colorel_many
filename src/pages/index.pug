@@ -1,0 +1,34 @@
+doctype html
+html(lang="ru")
+	include include/head.pug
+	+head('ColorElectronics')
+
+	body
+
+		div.wrapper.body-bg
+
+			include ../blocks/mixins.pug
+
+			include ../blocks/header/header.pug
+
+			include ../blocks/slider-top/slider-top.pug 
+
+			include ../blocks/production/production.pug
+
+			include ../blocks/realization/realization.pug 
+
+			include ../blocks/cat/cat.pug 
+
+			include ../blocks/project-realization/project-realization.pug
+
+			include ../blocks/connection/connection.pug
+
+			include ../blocks/ask-qustion/ask-qustion.pug 
+
+			include ../blocks/footer/footer.pug
+
+			include ../blocks/modal/modal.pug
+
+			include ../blocks/to-top/to-top.pug
+
+		include include/script.pug

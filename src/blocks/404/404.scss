@@ -1,0 +1,110 @@
+.page-404 {
+  /* 2 Block model */
+  padding-top: 60px;
+  padding-bottom: 90px;
+
+  /* 4 Visual */
+  background-image: url(../images/page-404-bg.png);
+  background-repeat: no-repeat;
+  background-position: right 0 bottom 0;
+  background-size: 214px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    /* 4 Visual */
+    background-size: 245px;
+  }
+  @media(min-width: 992px) {
+    /* 4 Visual */
+    background-size: 400px;
+    background-position: right 0 bottom 52%;
+  }
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    padding-top: 154px;
+    padding-bottom: 173px;
+
+    /* 4 Visual */
+    background-position: right 30px bottom 52%;
+    background-size: auto;
+  }
+  @media(min-width: 1920px) {
+    /* 4 Visual */
+    background-position: right 174px bottom 52%;
+  }
+}
+.page-404__error {
+  /* 2 Block model */
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 28px;
+
+  /* 3 Typography */
+  font-family: $font-four;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: $color-blue;
+}
+.page-404__title {
+  /* 2 Block model */
+  margin: 0;
+  margin-bottom: 25px;
+  width: 100%;
+  max-width: 545px;
+
+  /* 3 Typography */
+  font-family: $font-third;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 32px;
+  color: $color-black;
+
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    margin-bottom: 54px;
+
+    /* 3 Typography */
+    font-size: 55px;
+    line-height: 72px;
+  }
+}
+.page-404__text {
+  /* 2 Block model */
+  margin: 0;
+  margin-bottom: 50px;
+  width: 100%;
+  max-width: 810px;
+
+  /* 3 Typography */
+  font-family: $font-second;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: $color-black;
+
+  @media(min-width: 1200px) {
+    /* 3 Typography */
+    font-size: 24px;
+    line-height: 35px;
+  }
+}
+.page-404 .btn {
+  	/* 2 Block model */
+	padding-left: 27px;
+	padding-right: 32px;
+}
+.page-404 .btn__text {
+  /* 3 Typography */
+  font-size: 18px;
+  line-height: 18px;
+
+  @media(min-width: 1200px) {
+    /* 3 Typography */
+    font-size: 20px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,74 @@
+/*
+ * Fonts
+ *
+ */
+
+$font-main: 'GothamPro', sans-serif;
+$font-second: 'GothamPro-Light', sans-serif;
+$font-third: 'GothamPro-Medium', sans-serif;
+$font-four: 'GothamPro-Bold', sans-serif;
+$font-five: 'FuturaPT-Book', sans-serif;
+
+/*
+ * Colors
+ *
+ */
+
+$color-black: #000000;
+$color-white: #ffffff;
+
+
+$color-blue: #0e4f9c;
+$color-blue-light: #bbccdf;
+
+$color-yelow: #f29f53;
+
+$color-gray: #888787;
+
+/*
+ * Grid system
+ *
+ */
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+);
+
+$breakpoints: (
+	xs: 0,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1600px,
+  xxxl: 2500px
+);
+
+/*
+ * Animation Speed
+ *
+ */
+
+$animation-speed: 0.4s;
+
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

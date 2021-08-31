@@ -1,0 +1,101 @@
+doctype html
+html(lang="ru")
+	include include/head.pug
+	+head('ColorElectronics - Шильды и наклейки')
+
+	body
+		div.wrapper.body-bg
+			include ../blocks/mixins.pug
+
+			header.header
+				div.header__top
+					div.container
+						div.row
+							div.col-12
+								div.header__top-body
+									div.header__logo
+										+logo({img: 'logo.png'})
+									div.header__contacts
+										+icon-text({icon: 'icon--clock-regr', text: 'Режим работы:<br>Пн-Пт - 09:00-18:00'})
+
+										+icon-text({icon: 'icon--phone', text: '+7 (495) 640-02-01', url: '+74956400201', tel: true})
+
+										+icon-text({icon: 'icon--envelope-reg', text: '6400201@colorel.ru', mailto: true})(class="icon-text--underline")
+
+									button.header__btn(type="button")
+										span.visually-hidden Открыть меню
+										span.header__btn-visual
+
+				div.header__body-menu
+					div.container
+						div.row
+							div.col-12
+								div.header__body-menu-action
+									div
+										+btn({text: 'Заказать звонок', type: 'link', url: '#modal_contact'})(class="btn--no-bg modal-link")
+
+									button.header__btn(type="button")
+										span.visually-hidden Открыть меню
+										span.header__btn-visual
+
+
+				div.header__body
+					div.container
+						div.row.align-items-center
+							div.col-12
+								div.header__menu
+									nav.menu
+										ul.menu__list
+											li.menu__item
+												a.menu__item-link(href="/") Главная
+
+											li.menu__item.menu__item--active.menu__item--dropdown
+												a(href="catalog.html").menu__item-link.menu__item-link--dropdown Продукция
+												div
+													ul.menu__list.menu__level-2
+														li
+															a.menu__level-2__item-active(href="commodity.html") Пленочные клавиатуры
+
+														li
+															a(href="commodity.html") Приборные панели
+
+														li
+															a(href="commodity.html") Лицевые панели
+
+														li
+															a(href="commodity.html") Гибкие платы
+
+														li
+															a(href="commodity.html") Шильды и наклейки
+
+														li
+															a(href="commodity.html") Нагревательные элементы
+
+											li.menu__item
+												a.menu__item-link(href="clients.html") Заказчикам
+
+											li.menu__item
+												a.menu__item-link(href="photo-gallery.html") Фотогалерея
+
+											li.menu__item
+												a.menu__item-link(href="news.html") Новости
+
+											li.menu__item
+												a.menu__item-link(href="contacts.html") Контакты
+
+									div
+										+btn({text: 'Заказать звонок', type: 'link', url: '#modal_contact'})(class="btn--no-bg modal-link")
+
+									a.header__tel(href="tel:+74956400201") +7 (495) 640-02-01
+
+			include ../blocks/commodity/commodity.pug
+
+			include ../blocks/ask-qustion/ask-qustion.pug 
+
+			include ../blocks/footer/footer.pug
+
+			include ../blocks/modal/modal.pug
+
+			include ../blocks/to-top/to-top.pug
+
+		include include/script.pug

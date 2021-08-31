@@ -1,0 +1,7 @@
+mixin stage(data)
+  div.stage(class!=attributes.class)
+    div.stage__top
+      div.stage__top-img
+        img(src="images/"+data.img, alt="images")
+    span.staqge__number!=data.number
+    p.stage__text!=data.text

@@ -1,0 +1,13 @@
+.realization {
+  /* 2 Block model */
+  margin-bottom: 60px;
+
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    margin-bottom: 80px;
+  }
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    margin-bottom: 172px;
+  }
+}

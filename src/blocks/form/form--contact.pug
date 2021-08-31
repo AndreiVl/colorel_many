@@ -1,0 +1,19 @@
+div.form.form--contact
+	form.form__form(action="#" method="post")
+		div.form__body
+			div.form__item
+				+input({type: 'text', name: 'name_2', placeholder: 'Ваше имя <span>*</span>'})
+			div.form__item
+				+input({type: 'tel', name: 'tel_2', placeholder: 'Ваш номер телефона <span>*</span>'})(class='input--phone')
+			div.form__item
+				+input({type: 'email', name: 'email_2', placeholder: 'Ваша электронная почта'})
+
+			div.form__textarea
+				+textarea({name: 'message_2', rows: '4', placeholder: 'Ваше сообщение'})
+		div.form__check
+			+checkbox({name: 'accept_2'})(label_class='visually-hidden')
+			p.form__check-text Я принимаю 
+				a.form__check-link(href="#" target="_blank") Политику конфиденциальности
+
+		div.forma__action
+			+btn({text: 'Отправить', type: 'submit'})

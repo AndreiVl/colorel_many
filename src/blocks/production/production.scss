@@ -1,0 +1,135 @@
+.production {
+  /* 2 Block model */
+  margin-bottom: 60px;
+  padding-top: 49px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    margin-bottom: 100px;
+  }
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    margin-bottom: 150px;
+
+    /* 4 Visual */
+    background-image: url(../images/bg-dots.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 180px;
+  }
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    margin-bottom: 187px;
+
+    /* 4 Visual */
+    background-size: 200px;
+  }
+  @media(min-width: 1600px) {
+    /* 4 Visual */
+    background-size: 300px;
+  }
+  @media(min-width: 1920px) {
+    /* 4 Visual */
+    background-size: 360px;
+  }
+}
+.production__img {
+  /* 1 Positioning */
+  position: relative;
+
+  /* 2 Block model */
+  margin-bottom: 40px;
+
+  /* 4 Visual */
+  border-radius: 0 5px 5px 0;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    margin-right: -15px;
+    margin-bottom: 0;
+  }
+}
+.production__img  img {
+  /* 2 Block model */
+  display: block;
+  width: 100%;;
+  // max-width: 560px;
+  margin: 0;
+
+  /* 4 Visual */
+  border-radius: 0 8px 8px 0;
+  -webkit-box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow:    0px 0px 15px 4px rgba(0, 0, 0, 0.33);
+  box-shadow:         0px 0px 15px 4px rgba(0, 0, 0, 0.33);
+
+
+  // @media(min-width: 1200px) {
+  //   /* 1 Positioning */
+  //   position: absolute;
+  //   right: 0;
+    
+  //   /* 2 Block model */
+  //   width: 700px;
+  //   max-width: none;
+  // }
+  // @media(min-width: 1600px) {
+  //   /* 2 Block model */
+  //   width: 800px;
+  // }
+  // @media(min-width: 1920px) {
+  //   /* 2 Block model */
+  //   width: 864px;
+  // }
+}
+.production__info {
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-left: 15px;
+    margin-top: -8px;
+  }
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    padding-left: 30px;
+  }
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    padding-left: 82px;
+  }
+}
+.production .title {
+  /* 2 Block model */
+  padding-left: 4px;
+}
+.production .text {
+  /* 2 Block model */
+  margin-bottom: 15px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    margin-bottom: 24px;
+  }
+}
+.production .text span {
+  /* 3 Typography */
+  color: #0d51a2;
+}
+.production__action {
+  /* 2 Block model */
+  padding-top: 20px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-top: 37px;
+  }
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

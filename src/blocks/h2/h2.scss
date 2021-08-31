@@ -1,0 +1,32 @@
+.h2 {
+	/* 2 Block model */
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-third;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 30px;
+	color: $color-black;
+
+	@media(min-width: 768px) {
+		/* 3 Typography */
+		font-size: 28px;
+		line-height: 36px;
+	}
+	@media(min-width: 992px) {
+		/* 3 Typography */
+		font-size: 32px;
+		line-height: 40px;
+	}
+		@media(min-width: 1200px) {
+		/* 3 Typography */
+		font-size: 34px;
+		line-height: 42px;
+	}
+		@media(min-width: 1400px) {
+		/* 3 Typography */
+		font-size: 40px;
+		line-height: 44px;
+	}
+}

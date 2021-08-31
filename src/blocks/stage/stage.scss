@@ -1,0 +1,222 @@
+.stage {
+  /* 2 Block model */
+  width: 95px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    width: 164px;
+  }
+}
+.stage__top {
+  order: 1;
+}
+.stage__top-img {
+  /* 2 Block model */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95px;
+  height: 100px;
+
+  /* 4 Visual */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/stage-icon-bg.png);
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    width: 181px;
+    height: 191px;
+  }
+}
+.stage__top-img img {
+  /* 2 Block model */
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+}
+.stage--bottom .stage__top-img img {
+  /* 2 Block model */
+  margin-top: 10px;
+  margin-bottom: 0;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    margin-top: 20px;
+  }
+}
+.staqge__number {
+  /* 1 Positioning */
+  position: relative;
+  z-index: 5;
+
+  /* 2 Block model */
+  width: 32px;
+  height: 32px;
+  margin-top: 17px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 2;
+
+  /* 3 Typography */
+  font-family: $font-third;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+
+  /* 4 Visual */
+  background-color: #f29f53;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(242, 159, 83, 1);
+  -moz-box-shadow:    0px 0px 10px 2px rgba(242, 159, 83, 1);
+  box-shadow:         0px 0px 10px 2px rgba(242, 159, 83, 1);
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    margin-bottom: 45px;
+  }
+}
+.staqge__number::before,
+.staqge__number::after {
+  /* 1 Positioning */
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+
+  /* 2 Block model */
+  display: none;
+  width: 66px;
+  height: 1px;
+
+  /* 3 Typography */
+
+  /* 4 Visual */
+  background-color: #e8e8e8;
+  content: '';
+
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    display: block;
+  }
+}
+.staqge__number::before {
+  /* 1 Positioning */
+  left: 42px;
+}
+.staqge__number::after {
+  /* 1 Positioning */
+  right: 48px;
+}
+.stage__text {
+  /* 2 Block model */
+  min-height: 42px;
+  margin: 0;
+  order: 3;
+  width: 100%;
+
+  /* 3 Typography */
+  font-family: $font-third;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: $color-black;
+  text-align: center;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    min-height: 54px;
+
+    /* 3 Typography */
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+.stage--bg-1 .stage__top {
+  /* 4 Visual */
+  background-image: url(../images/stage-icon-bg.png);
+}
+.stage--bg-2 .stage__top {
+  /* 4 Visual */
+  background-image: url(../images/stages-icon-2.png);
+}
+.stage--bg-3 .stage__top {
+  /* 4 Visual */
+  background-image: url(../images/stages-icon-3.png);
+}
+.stage--bg-4 .stage__top {
+  /* 4 Visual */
+  background-image: url(../images/stages-icon-4.png);
+}
+.stage--bg-5 .stage__top {
+  /* 4 Visual */
+  background-image: url(../images/stages-icon-5.png);
+}
+.stage--bg-6 .stage__top {
+  /* 4 Visual */
+  background-image: url(../images/stages-icon-6.png);
+}
+.stage--bg-7 .stage__top {
+  /* 4 Visual */
+  background-image: url(../images/stages-icon-7.png);
+}
+.stage--bg-bottom .stage__top-img {
+  /* 4 Visual */
+  background-image: url(../images/stage-icon-bg-2.png);
+}
+.stage--bottom .stage__top {
+  /* 2 Block model */
+  order: 3;
+}
+.stage--bottom .stage__text {
+  /* 2 Block model */
+  order: 1;
+}
+.stage--bottom {
+  /* 2 Block model */
+  padding-top: 40px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-top: 117px;
+  }
+}
+.stage--bottom .staqge__number {
+  /* 2 Block model */
+  margin-top: 37px;
+  margin-bottom: 12px;
+}
+.stage--pd-117 {
+  /* 2 Block model */
+  padding-top: 20px;
+
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    padding-top: 117px;
+  }
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

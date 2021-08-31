@@ -1,0 +1,59 @@
+.mr-b-0 {
+  /* 2 Block model */
+  margin-bottom: 0;
+}
+.mr-b-18 {
+  /* 2 Block model */
+  margin-bottom: 18px;
+}
+.mr-b-20 {
+  /* 2 Block model */
+  margin-bottom: 20px;
+}
+.mr-b-35 {
+  /* 2 Block model */
+  margin-bottom: 35px;
+}
+.mr-b-57 {
+  /* 2 Block model */
+  margin-bottom: 20px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    margin-bottom: 30px;
+  }
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    margin-bottom: 57px;
+  }
+}
+.mr-b-50 {
+  /* 2 Block model */
+  margin-bottom: 20px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    margin-bottom: 30px;
+  }
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    margin-bottom: 50px;
+  }
+}
+.mr-b-70 {
+  /* 2 Block model */
+  margin-bottom: 20px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    margin-bottom: 30px;
+  }
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    margin-bottom: 70px;
+  }
+}
+.mr-l-18 {
+  /* 2 Block model */
+  margin-left: 18px;
+}

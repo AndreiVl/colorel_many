@@ -1,0 +1,70 @@
+.icon-text {
+  /* 2 Block model */
+  display: flex;
+  align-items: center;
+}
+.icon-text .icon {
+  /* 2 Block model */
+  margin-right: 13px;
+
+  /* 3 Typography */
+  color: $color-blue;
+  fill: $color-blue;
+}
+.icon-text__link,
+.icon-text__text {
+  /* 2 Block model */
+  display: flex;
+
+  /* 3 Typography */
+  font-family: $font-main;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: normal;
+  color: $color-black;
+  text-decoration: none;
+
+  /* 5 Animation*/
+  transition: all 0.4s;
+}
+.icon-text__link:hover {
+  /* 3 Typography */
+  color: $color-blue;
+}
+.icon-text--underline .icon-text__link {
+  /* 3 Typography */
+  text-decoration: underline;
+}
+.icon-text--white .icon {
+  /* 3 Typography */
+  color: $color-white;
+  fill: $color-white;
+}
+.icon-text--white .icon-text__link,
+.icon-text--white .icon-text__text {
+  /* 3 Typography */
+  color: $color-white;
+}
+.icon-text--white .icon-text__link:hover {
+  /* 3 Typography */
+  color: #bec6d1;
+}
+.icon-text--no-center {
+  /* 2 Block model */
+  align-items: flex-start;
+}
+.icon-text--mr20 .icon {
+  /* 2 Block model */
+  margin-right: 20px;
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

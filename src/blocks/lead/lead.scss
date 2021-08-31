@@ -1,0 +1,30 @@
+.lead {
+	/* 2 Block model */
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-third;
+	font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+	color: #ffffff;
+	
+	/* 4 Visual */
+	text-shadow: 1px 1px 1px #555454;
+  
+	@media(min-width: 768px) {
+		/* 3 Typography */
+		font-size: 18px;
+    line-height: 28px;
+	}
+	@media(min-width: 1200px) {
+		/* 3 Typography */
+		font-size: 20px;
+    line-height: 28px;
+	}
+		@media(min-width: 1400px) {
+		/* 3 Typography */
+		font-size: 24px;
+    line-height: 35px;
+	}
+}

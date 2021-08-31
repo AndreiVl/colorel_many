@@ -1,0 +1,45 @@
+.stages-list {
+  /* 2 Block model */
+  display: flex;
+  flex-wrap: wrap;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-top: 70px;
+  }
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    flex-wrap: nowrap;
+  }
+}
+.stages-list__col-1 {
+  /* 2 Block model */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.stages-list__col-2 {
+  /* 2 Block model */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 340px;
+  margin: 0 auto;
+}
+.stages-list__col-3 {
+  /* 2 Block model */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

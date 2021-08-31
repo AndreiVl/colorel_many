@@ -1,0 +1,115 @@
+.modal-form {
+  /* 2 Block model */
+  width: 100%;
+  max-width: 502px;
+  padding-top: 28px;
+  padding-bottom: 35px;
+  padding-left: 0;
+  padding-right: 0;
+
+  /* 4 Visual */
+  border-radius: 9px;
+}
+
+.modal-form__top {
+   /* 1 Positioning */
+   position: relative;
+
+  /* 2 Block model */
+  margin-bottom: 50px;
+}
+.modal-form__top::before {
+  /* 1 Positioning */
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /* 2 Block model */
+  display: block;
+  width: 8px;
+  height: 76px;
+
+  /* 4 Visual */
+  background-color: #b1c3d9;
+  content: '';
+
+}
+.modal-form__title {
+  /* 2 Block model */
+  margin: 0;
+  margin-bottom: 11px;
+  padding-top: 13px;
+
+  /* 3 Typography */
+  font-family: $font-main;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-align: center;
+}
+.modal-form__text {
+  /* 2 Block model */
+  display: block;
+  width: 100%;
+  max-width: 210px;
+  margin: 0 auto;
+
+  /* 3 Typography */
+  font-family: $font-main;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  text-align: center;
+}
+.modal-form__body {
+  /* 2 Block model */
+  padding-left: 10px;
+  padding-right: 10px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-left: 36px;
+    padding-right: 39px;
+  }
+}
+.modal-form a.close-modal {
+  /* 1 Positioning */
+  top: 14px;
+  right: 15px;
+  
+  /* 2 Block model */
+  width: 13px;
+  height: 13px;
+
+  /* 4 Visual */
+  background-image: url(../images/icon--cros.svg);
+}
+
+.modal-form__body .forma__action {
+  /* 3 Typography */
+  text-align: center;
+}
+.modal-form__body .forma__action .btn{
+  /* 2 Block model */
+  padding-left: 38px;
+  padding-right: 34px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-left: 62px;
+    padding-right: 65px;
+  }
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */
